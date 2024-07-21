@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "Colormapping.h"
 
-total_number_pair = numberOfMajorColors * numberOfMinorColors;
+int total_number_pair = numberOfMajorColors * numberOfMinorColors;
 
 void PrintReferenceManual()
 {
