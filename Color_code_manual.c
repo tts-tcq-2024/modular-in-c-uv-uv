@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include "Colormapping.h"
 
-int total_number_pair = numberOfMajorColors * numberOfMinorColors;
-
 void PrintReferenceManual()
 {
     printf("Pair Number | Major Color | Minor Color\n");
     printf("---------------------------------------\n");
-    for (int pairNumber = 1; pairNumber <= total_number_pair; pairNumber++) {
+    for (int pairNumber = 1; pairNumber <= numberOfMajorColors * numberOfMinorColors; pairNumber++) {
         ColorPair colorPair = GetColorFromPairNumber(pairNumber);
         char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
         ColorPairToString(&colorPair, colorPairNames);
