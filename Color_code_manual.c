@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "Colormapping.h"
 
+total_number_pair = numberOfMajorColors * numberOfMinorColors;
+
 void PrintReferenceManual()
 {
-    total_number_pair = numberOfMajorColors * numberOfMinorColors;
     printf("Pair Number | Major Color | Minor Color\n");
     printf("---------------------------------------\n");
     for (int pairNumber = 1; pairNumber <= total_number_pair; pairNumber++) {
