@@ -2,6 +2,8 @@
 #include <assert.h> 
 #include "Colormapping.h"
 
+const int MAX_COLORPAIR_NAME_CHARS = 16;
+
 void PrintColorPair(int pairNumber, const ColorPair* colorPair, int show_pair_or_number)
 {
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];

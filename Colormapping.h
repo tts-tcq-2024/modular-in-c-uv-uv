@@ -9,7 +9,7 @@ extern const char* MajorColorNames[];
 extern int numberOfMajorColors;
 extern const char* MinorColorNames[];
 extern int numberOfMinorColors;
-const int MAX_COLORPAIR_NAME_CHARS = 16;
+extern const int MAX_COLORPAIR_NAME_CHARS;
 
 typedef struct {
     enum MajorColor majorColor;
@@ -19,4 +19,5 @@ typedef struct {
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
 int GetPairNumberFromColor(const ColorPair* colorPair);
+void PrintColorPair(int pairNumber, const ColorPair* colorPair, int show_pair_or_number);
 #endif
