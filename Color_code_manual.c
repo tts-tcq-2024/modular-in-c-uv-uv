@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "Colormapping.h"
+#include "Color_code_manual.h"
 
 void PrintReferenceManual()
 {
