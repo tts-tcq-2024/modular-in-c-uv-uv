@@ -1,4 +1,4 @@
-#include "Color_pairnumber_test.h"
+#include "Color_pairnumber_test_runner.h"
 
 void RunTests()
 {

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "Color_pairnumber_mapping.h"
 #include "Color_code_manual.h"
+#include "Color_pairnumber_mapping.h"
 
 void PrintReferenceManual()
 {
